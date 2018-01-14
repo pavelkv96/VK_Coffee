@@ -1,0 +1,220 @@
+{
+  "response": {
+    "count": 86,
+    "items": [
+      {
+        "id": 217178,
+        "body": "Отлично, продолжаем общаться и получать новые стикеры. Через пару дней пришлю еще один совет!",
+        "user_id": -157369801,
+        "from_id": -157369801,
+        "date": 1515249958,
+        "read_state": 1,
+        "out": 0
+      },
+      {
+        "id": 217177,
+        "body": "мур",
+        "user_id": -157369801,
+        "from_id": 294948301,
+        "date": 1515249957,
+        "read_state": 1,
+        "out": 1,
+        "random_id": 296119420
+      },
+      {
+        "id": 216844,
+        "body": "В твоей коллекции новый стикер! Обнови страницу и проверь.",
+        "user_id": -157369801,
+        "from_id": -157369801,
+        "date": 1515038683,
+        "read_state": 1,
+        "out": 0
+      },
+      {
+        "id": 216843,
+        "body": "",
+        "user_id": -157369801,
+        "from_id": -157369801,
+        "date": 1515038683,
+        "read_state": 1,
+        "out": 0,
+        "attachments": [
+          {
+            "type": "sticker",
+            "sticker": {
+              "id": 6169,
+              "product_id": 192,
+              "photo_64": "https://vk.com/im...ickers/6169/64b.png",
+              "photo_128": "https://vk.com/im...ckers/6169/128b.png",
+              "photo_256": "https://vk.com/im...ckers/6169/256b.png",
+              "photo_352": "https://vk.com/im...ckers/6169/352b.png",
+              "photo_512": "https://vk.com/im...ckers/6169/512b.png",
+              "width": 256,
+              "height": 256
+            }
+          }
+        ]
+      },
+      {
+        "id": 216842,
+        "body": "Новый год, а значит пришло время ставить цели на 2018 &#127876; Хотя с планированием у меня плохо. В начале месяца деньги есть, а в конце - их кот наплакал. Постоянно обещаю себе откладывать на новую приставку, лонгборд и смартфон. Но деньги опять куда-то улетают &#9992; Дарю тебе лайфхак: в приложении Сбербанк Онлайн есть финансовый помощник, который подскажет, на что и сколько денег ты потратил. У меня больше всего уходит на еду &#127844;&#127831;",
+        "user_id": -157369801,
+        "from_id": -157369801,
+        "date": 1515038683,
+        "read_state": 1,
+        "out": 0,
+        "attachments": [
+          {
+            "type": "photo",
+            "photo": {
+              "id": 456239175,
+              "album_id": 249634537,
+              "owner_id": -157369801,
+              "user_id": 100,
+              "photo_75": "https://pp.userap...c2b/ruT3shGrasE.jpg",
+              "photo_130": "https://pp.userap...c2c/tfTZ9Q_WcSM.jpg",
+              "photo_604": "https://pp.userap...c2d/50jkFnQ1aYc.jpg",
+              "photo_807": "https://pp.userap...c2e/7By-ZEfmOVk.jpg",
+              "photo_1280": "https://pp.userap...c2f/2bE1uWrYz4A.jpg",
+              "photo_2560": "https://pp.userap...c30/T7Lxn3F3KRQ.jpg",
+              "width": 2560,
+              "height": 1875,
+              "text": "",
+              "date": 1514884361,
+              "access_key": "5a2f84af86b6eda704"
+            }
+          }
+        ],
+        "emoji": 1
+      },
+      {
+        "id": 216446,
+        "body": "Отлично, продолжаем общаться и получать новые стикеры. Через пару дней пришлю еще один совет!",
+        "user_id": -157369801,
+        "from_id": -157369801,
+        "date": 1514701930,
+        "read_state": 1,
+        "out": 0
+      },
+      {
+        "id": 216445,
+        "body": "Мур",
+        "user_id": -157369801,
+        "from_id": 294948301,
+        "date": 1514701930,
+        "read_state": 1,
+        "out": 1,
+        "random_id": -892756989
+      },
+      {
+        "id": 216444,
+        "body": "",
+        "user_id": -157369801,
+        "from_id": -157369801,
+        "date": 1514701922,
+        "read_state": 1,
+        "out": 0,
+        "attachments": [
+          {
+            "type": "sticker",
+            "sticker": {
+              "id": 6163,
+              "product_id": 192,
+              "photo_64": "https://vk.com/im...ickers/6163/64b.png",
+              "photo_128": "https://vk.com/im...ckers/6163/128b.png",
+              "photo_256": "https://vk.com/im...ckers/6163/256b.png",
+              "photo_352": "https://vk.com/im...ckers/6163/352b.png",
+              "photo_512": "https://vk.com/im...ckers/6163/512b.png",
+              "width": 256,
+              "height": 256
+            }
+          }
+        ]
+      },
+      {
+        "id": 216443,
+        "body": "Мур мур",
+        "user_id": -157369801,
+        "from_id": 294948301,
+        "date": 1514701922,
+        "read_state": 1,
+        "out": 1,
+        "random_id": -892756990
+      },
+      {
+        "id": 216387,
+        "body": "В твоей коллекции новый стикер! Обнови страницу и проверь.",
+        "user_id": -157369801,
+        "from_id": -157369801,
+        "date": 1514622186,
+        "read_state": 1,
+        "out": 0
+      },
+      {
+        "id": 216386,
+        "body": "",
+        "user_id": -157369801,
+        "from_id": -157369801,
+        "date": 1514622186,
+        "read_state": 1,
+        "out": 0,
+        "attachments": [
+          {
+            "type": "sticker",
+            "sticker": {
+              "id": 6166,
+              "product_id": 192,
+              "photo_64": "https://vk.com/im...ickers/6166/64b.png",
+              "photo_128": "https://vk.com/im...ckers/6166/128b.png",
+              "photo_256": "https://vk.com/im...ckers/6166/256b.png",
+              "photo_352": "https://vk.com/im...ckers/6166/352b.png",
+              "photo_512": "https://vk.com/im...ckers/6166/512b.png",
+              "width": 256,
+              "height": 256
+            }
+          }
+        ]
+      },
+      {
+        "id": 216385,
+        "body": "Сегодня без шуток&#10071; Если некий «сотрудник банка» звонит по телефону и просит сообщить ему номер карты или защитный код с ее обратной стороны — это мошенник! Расцарапать его! &#128110;",
+        "user_id": -157369801,
+        "from_id": -157369801,
+        "date": 1514622186,
+        "read_state": 1,
+        "out": 0,
+        "emoji": 1
+      },
+      {
+        "id": 216295,
+        "body": "Отлично, продолжаем общаться и получать новые стикеры. Через пару дней пришлю еще один совет!",
+        "user_id": -157369801,
+        "from_id": -157369801,
+        "date": 1514568452,
+        "read_state": 1,
+        "out": 0
+      },
+      {
+        "id": 216294,
+        "body": "Мур",
+        "user_id": -157369801,
+        "from_id": 294948301,
+        "date": 1514568452,
+        "read_state": 1,
+        "out": 1,
+        "random_id": -892756885
+      },
+      {
+        "id": 215934,
+        "body": "Отлично, продолжаем общаться и получать новые стикеры. Через пару дней пришлю еще один совет!",
+        "user_id": -157369801,
+        "from_id": -157369801,
+        "date": 1514405102,
+        "read_state": 1,
+        "out": 0
+      }
+    ],
+    "in_read": 217178,
+    "out_read": 217178
+  }
+}
