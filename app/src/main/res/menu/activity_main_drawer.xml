@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_groups"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="@string/groups" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_messenger_24dp"
+        android:title="@string/messages" />
+        <!--android:checked="true"-->
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_person_24dp"
+            android:title="@string/friends" />
+    </group>
+</menu>
