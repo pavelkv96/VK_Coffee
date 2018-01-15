@@ -1,4 +1,4 @@
-package com.github.pavelkv96.vk_coffee.ui.fragments.friends;
+package com.github.pavelkv96.vk_coffee.ui.fragments_for_navigation_drawer.friends;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -10,8 +10,8 @@ import android.view.ViewGroup;
 
 import com.github.pavelkv96.vk_coffee.R;
 import com.github.pavelkv96.vk_coffee.ui.adapters.SectionsPagerAdapter;
-import com.github.pavelkv96.vk_coffee.ui.fragments.friends.children_fragments.AllFriendsFragment;
-import com.github.pavelkv96.vk_coffee.ui.fragments.friends.children_fragments.OnlineFriendsFragment;
+import com.github.pavelkv96.vk_coffee.ui.fragments_for_navigation_drawer.friends.children_fragments.AllFriendsFragment;
+import com.github.pavelkv96.vk_coffee.ui.fragments_for_navigation_drawer.friends.children_fragments.OnlineFriendsFragment;
 
 public class FriendsFragment extends Fragment {
 

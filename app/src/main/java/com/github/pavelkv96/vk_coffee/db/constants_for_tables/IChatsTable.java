@@ -1,4 +1,4 @@
-package com.github.pavelkv96.vk_coffee.db.v8.constants_for_tables;
+package com.github.pavelkv96.vk_coffee.db.constants_for_tables;
 
 import android.net.Uri;
 
@@ -14,8 +14,8 @@ public interface IChatsTable extends IProvider {
     String PHOTO = "photo";
 
     String CREATE_TABLE_CHATS =
-            "CREATE TABLE IF NOT EXISTS " + TABLE_CHATS + " (" +
-                    _CHAT_ID + " INTEGER, " +
+            "CREATE TABLE IF NOT EXISTS " + TABLE_CHATS + " ( " +
+                    _CHAT_ID + " INTEGER unique, " +
                     TITLE + " VARCHAR(500), " +
                     ADMIN + " INTEGER NOT NULL, " +
                     PHOTO + " VARCHAR(500))";

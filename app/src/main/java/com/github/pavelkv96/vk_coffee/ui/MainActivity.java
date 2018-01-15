@@ -12,15 +12,15 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 import com.github.pavelkv96.vk_coffee.R;
-import com.github.pavelkv96.vk_coffee.ui.fragments.GroupsFragment;
-import com.github.pavelkv96.vk_coffee.ui.fragments.MessagesFragment;
-import com.github.pavelkv96.vk_coffee.ui.fragments.friends.FriendsFragment;
+import com.github.pavelkv96.vk_coffee.ui.fragments_for_navigation_drawer.DialogsFragment;
+import com.github.pavelkv96.vk_coffee.ui.fragments_for_navigation_drawer.GroupsFragment;
+import com.github.pavelkv96.vk_coffee.ui.fragments_for_navigation_drawer.friends.FriendsFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     GroupsFragment groupsFragment;
-    MessagesFragment messagesFragment;
+    DialogsFragment messagesFragment;
     FriendsFragment friendsFragment;
 
     DrawerLayout drawer;
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         groupsFragment = new GroupsFragment();
-        messagesFragment = new MessagesFragment();
+        messagesFragment = new DialogsFragment();
         friendsFragment = new FriendsFragment();
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity
             }
             break;
             case R.id.nav_messages: {
-                fragmentClass = MessagesFragment.class;
+                fragmentClass = DialogsFragment.class;
             }
             break;
             case R.id.nav_friends: {
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity
             }
             break;
             default:
-                fragmentClass = MessagesFragment.class;
+                fragmentClass = DialogsFragment.class;
         }
 
         try {

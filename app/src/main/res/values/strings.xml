@@ -2,6 +2,9 @@
     <string name="app_name">VK_Coffee</string>
     <string name="title_activity_main">MainActivity</string>
 
+    <string name="all">All</string>
+    <string name="online">Online</string>
+
     <string name="navigation_drawer_open">Open</string>
     <string name="navigation_drawer_close">Close</string>
 

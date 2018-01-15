@@ -1,4 +1,4 @@
-package com.github.pavelkv96.vk_coffee.db.v8.constants_for_tables;
+package com.github.pavelkv96.vk_coffee.db.constants_for_tables;
 
 import android.net.Uri;
 
@@ -11,7 +11,7 @@ public interface IMessagesUnreadCountersTable extends IProvider {
     String UNREAD_COUNT = "unread_count";
 
     String CREATE_TABLE_MESSAGES_UNREAD_COUNTERS =
-            "CREATE TABLE IF NOT EXISTS " + TABLE_MESSAGES_UNREAD_COUNTERS + " (" +
-                    _PEER + " INTEGER, " +
+            "CREATE TABLE IF NOT EXISTS " + TABLE_MESSAGES_UNREAD_COUNTERS + " ( " +
+                    _PEER + " INTEGER unique, " +
                     UNREAD_COUNT + " INTEGER NOT NULL DEFAULT 0)";
 }

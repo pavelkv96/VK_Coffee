@@ -1,4 +1,4 @@
-package com.github.pavelkv96.vk_coffee.db.v8.constants_for_tables;
+package com.github.pavelkv96.vk_coffee.db.constants_for_tables;
 
 import android.net.Uri;
 
@@ -16,8 +16,8 @@ public interface IMessagesTable extends IProvider {
     String FWD = "fwd_messages";
 
     String CREATE_TABLE_MESSAGES =
-            "CREATE TABLE IF NOT EXISTS " + TABLE_MESSAGES + " (" +
-                    _MID + " INTEGER, " +
+            "CREATE TABLE IF NOT EXISTS " + TABLE_MESSAGES + " ( " +
+                    _MID + " INTEGER unique, " +
                     PEER + " INTEGER NOT NULL, " +
                     SENDER + " INTEGER NOT NULL, " +
                     TEXT + " TEXT, " +

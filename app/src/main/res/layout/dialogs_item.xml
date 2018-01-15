@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <ImageView
+        android:id="@+id/profile_avatar_image_view"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:srcCompat="@drawable/ic_person_24dp" />
+
+    <TextView
+        android:id="@+id/name_friend_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profile_avatar_image_view"
+        android:layout_toEndOf="@+id/profile_avatar_image_view"
+        android:layout_toRightOf="@id/profile_avatar_image_view"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:text="От кого" />
+
+    <TextView
+        android:id="@+id/message_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_friend_text_view"
+        android:layout_toEndOf="@+id/profile_avatar_image_view"
+        android:layout_toRightOf="@+id/profile_avatar_image_view"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:singleLine="true"
+        tools:text="сообщение" />
+
+    <TextView
+        android:id="@+id/time_message_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/name_friend_text_view"
+        android:paddingTop="4sp"
+        android:textSize="14sp"
+        tools:text="20:25" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@+id/message_text_view"
+        android:layout_marginTop="8sp"
+        android:background="@color/backgroundGray" />
+</RelativeLayout>

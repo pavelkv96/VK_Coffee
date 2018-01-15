@@ -1,4 +1,4 @@
-package com.github.pavelkv96.vk_coffee.db.v8.constants_for_tables;
+package com.github.pavelkv96.vk_coffee.db.constants_for_tables;
 
 import android.net.Uri;
 
@@ -18,8 +18,8 @@ public interface IFriendsTable extends IProvider {
     String LAST_SEEN_PLATFORM = "last_seen_platform";
 
     String CREATE_TABLE_FRIENDS =
-            "CREATE TABLE IF NOT EXISTS "+ TABLE_FRIENDS +" ("+
-                    _UID +" INTEGER NOT NULL, " +
+            "CREATE TABLE IF NOT EXISTS "+ TABLE_FRIENDS +" ( "+
+                    _UID +" INTEGER NOT NULL unique, " +
                     FIRST_NAME +" VARCHAR(150), " +
                     LAST_NAME +" VARCHAR(150), " +
                     PHOTO_SMALL +" VARCHAR(200), " +

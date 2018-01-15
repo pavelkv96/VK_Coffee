@@ -1,4 +1,4 @@
-package com.github.pavelkv96.vk_coffee.ui.fragments;
+package com.github.pavelkv96.vk_coffee.ui.fragments_for_navigation_drawer;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
